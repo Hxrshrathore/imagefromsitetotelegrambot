@@ -3,7 +3,7 @@ import requests
 import os
 
 # replace YOUR_BOT_TOKEN with your actual bot token obtained from BotFather
-bot = telebot.TeleBot('5528021284:AAH3K_b1vL2SzxJQv_sZlJF7eG9R0l2X964')
+bot = telebot.TeleBot('YOUR_BOT_TOKEN')
 
 @bot.message_handler(commands=['start', 'help'])
 def send_welcome(message):
